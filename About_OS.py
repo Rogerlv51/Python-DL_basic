@@ -1,5 +1,7 @@
 import os
 
+print("当前目录：", os.getcwd())   # 得到当前目录地址
+
 # 返回指定目录下的所有文件和目录名
 root_dir = os.listdir("C:/Users/EVER/Desktop/Python-DL_basic/")
 print(root_dir)
