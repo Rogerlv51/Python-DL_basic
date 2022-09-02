@@ -5,9 +5,9 @@ import glob
 print("当前目录：", os.getcwd())   # 得到当前目录地址
 
 # 返回指定目录下的所有文件和目录名
-root_dir = os.listdir("C:/Users/EVER/Desktop/CodeSpace/Python-DL_basic/")
+root_dir = os.listdir("C:/Users/Roger/Desktop/DL_codes/Python-DL_basic/")
 print(root_dir)
-origin_path = "C:/Users/EVER/Desktop/CodeSpace/Python-DL_basic/"
+origin_path = "C:/Users/Roger/Desktop/DL_codes/Python-DL_basic/"
 
 # glob.glob返回一个找到指定文件的文件名列表
 os.chdir(origin_path)    # 先进入指定目录
